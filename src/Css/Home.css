@@ -1,0 +1,12 @@
+.Home{
+    
+   background-color: black;
+}  
+
+.HomeHeading{
+    color:white;
+    font-style: italic;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
