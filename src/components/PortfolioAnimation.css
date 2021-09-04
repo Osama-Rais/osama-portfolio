@@ -6,12 +6,63 @@ video{
     z-index:-1;
 }
 .animation-container{
+    /* background: url("images/img-home.jpg") center center/cover no-repeat; */
     height:100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit: contain;
     
 }
+.animation-container > p{
+    color:#fff;
+    font-size:100px;
+    margin-top: -100px;
+}
+.animation-container > h1{
+    color:#fff;
+    font-size:100px;
+    margin-top: -100px;
+
+}
+.animation-btns{
+    margin-top:32px;
+}
+.animation-btns.btn{
+    margin:6px;
+}
+.fa-arrow-down{
+    margin-left:4px;
+}
+
+@media screen and (max-width: 960px){
+    .animation-container > h1{
+       
+        font-size:70px;
+        margin-top: -150px;
+    
+    }
+}
+@media screen and (max-width: 768px){
+    .animation-container > h1{
+       
+        font-size:50px;
+        margin-top: -100px;
+    
+    }
+.animation-container > p{
+    font-size: 30px;
+}
+.btn-mobile{
+    display: block;
+    text-decoration: none;
+}
+.btn{
+    width:100%
+}
+}
+    
+

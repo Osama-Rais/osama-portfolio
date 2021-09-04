@@ -50,12 +50,6 @@ function NavBar(){
                     
              </li> 
          
-             <li className="nav-item">
-               <Link to="/skills" className="nav-links" onClick={clsoeMobileMenu}>
-              Contact
-               </Link>
-                    
-             </li> 
            </ul>
        </div>
      </nav>

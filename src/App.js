@@ -2,12 +2,12 @@ import React from 'react';
 import { Switch, Route, BrowserRouter as Router  } from "react-router-dom";
 import Home from "./components/Home"
 import About from "./components/About"
-// import Skills from "./components/Skills"
-// import Expertise from "./components/Expertise"
-// import Contact from "./components/Contact"
-// import Project from "./components/Project"
+import Skills from "./components/Skills"
+import Expertise from "./components/Expertise"
+import Project from "./components/Project"
 import NavBar from "./components/NavBar"
 import "./components/App.css"
+
 
 
 function App() {
@@ -18,6 +18,9 @@ function App() {
   <Switch>
     <Route  path='/' exact component={Home}/>
     <Route  path='/about' exact component={About}/>
+    <Route  path='/skills' exact component={Skills}/>
+    <Route  path='/expertise' exact component={Expertise}/>
+    <Route  path='/project' exact component={Project}/>
   </Switch>
 </Router>
     </>

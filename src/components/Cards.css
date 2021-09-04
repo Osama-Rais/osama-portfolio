@@ -1,0 +1,19 @@
+/* .skill-card{
+  align-self: center;
+
+} */
+
+.skill-container{
+  background-color:none;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillimg-container{
+  color:black;
+  font-size:100px;
+ 
+}

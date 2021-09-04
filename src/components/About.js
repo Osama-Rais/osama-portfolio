@@ -1,12 +1,23 @@
 import React from "react"
-import PortfolioAnimation from "./PortfolioAnimation"
 import "./App.css"
+import Footer from "./Footer"
+import Cards from "./Cards";
+
  function About(){
-  return(
-    <>
-    <PortfolioAnimation/>
-    </>
-  )
-}
+    return (
+ <>
+ <Cards/>
+ <Footer/>
+ </> 
+
+     
+  
+      
+        
+)
+ 
+  }
+
 
 export default About;
+
